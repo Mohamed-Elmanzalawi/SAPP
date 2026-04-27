@@ -5,6 +5,17 @@
 A high-performance cluster (HPC)-compatible pipeline for short-read sequence analysis to identify pathogenic variants. It was optimized and validated on both Sun Grid Engine (SGE) and Slurm job scheduling systems to ensure efficiency and scalability across different HPC environments.
 
 ---
+### ⚠️ Project Status
+> **Note:** This project is currently **on hold**. Development has been paused for the time being, but the pipeline may be resumed and further improved in the future.
+---
+### 🚧 Planned / Potential Updates
+
+The following improvements are being considered for future development:
+  - Increase the speed of splitting multi-sample VCF files into individual patient VCFs
+  - Combine existing scripts into a single, unified master script for easier execution and maintenance
+  - Reconfigure the pipeline to run using **Nextflow** for improved scalability, portability, and reproducibility across HPC environments
+  - Add an option to automatically download and integrate the latest **ClinVar** dataset
+---
 
 ### Content
 
